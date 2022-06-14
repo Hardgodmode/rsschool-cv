@@ -143,3 +143,10 @@ html {
     margin: 0;
     padding: 0;
 }
+.rsschool {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/svg/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
