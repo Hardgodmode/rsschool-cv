@@ -1,0 +1,145 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #383838;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-item {
+    padding: 0 5px;
+    line-height: 30px;
+}
+.nav-link {
+    padding: 0 5px;
+    line-height: 30px;
+    color: rgb(221, 221, 221);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+.link {
+    padding: 0 5px;
+    line-height: 30px;
+    color: rgb(93, 0, 168);
+    text-decoration: none;
+}
+.header {
+    background-color: rgb(52, 0, 100);
+}
+.main {
+    margin-bottom: auto;
+}
+@media (max-width: 1440px) {
+ .container {
+    padding: 0 25px;
+ }
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section {
+    width: 50%;
+  }
+.section {
+    width: calc(50% - 90px);
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgb(52, 0, 100);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  } 
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid rgb(52, 0, 100);
+}
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main-title {
+    padding: 0;
+    margin: 0;
+    font-size: 32px;
+    word-spacing: 4px;
+    font-weight: 300;
+    color: rgb(69, 0, 133);
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+.main-subtitle {
+    padding: 0;
+    margin: 5px;
+    font-size: 27px;
+    word-spacing: 1px;
+    font-weight: 100;
+    color: rgb(54, 27, 80);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.section-list {
+    list-style: none;
+    line-height: 1.7;
+    font-size: 18px;
+
+}
+.section-title {
+    margin: 25px;;
+    color: rgb(178, 95, 255);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.section-paragrah {
+    margin: 35px;
+}
+.footer {
+    background-color: rgb(52, 0, 100);
+}
+.footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+}
+.github {
+    color: rgb(236, 236, 236);
+    font-size: 20px;
+    line-height: 45px;
+    text-decoration: none;
+    margin: 56px;
+}
+.code {
+    margin: 0;
+    padding: 0;
+}
